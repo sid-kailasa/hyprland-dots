@@ -1,0 +1,40 @@
+{
+  "positionX": "right",
+  "positionY": "top",
+  "layer": "overlay",
+  "control-center-layer": "overlay",
+  "notification-icon-size": 64,
+  "notification-body-image-height": 100,
+  "notification-body-image-width": 200,
+  "fit-to-screen": false,
+  "control-center-width": 420,
+  "control-center-height": 1033,
+  "control-center-margin-top": 5,
+  "cssPriority": "user",
+  "widgets": ["inhibitors", "title", "dnd", "mpris", "notifications"],
+  "widget-config": {
+    "inhibitors": {
+      "text": "Do Not Disturb",
+      "button-text": "Enable",
+      "clear-all-button": true
+    },
+    "title": {
+      "text": "Notifications",
+      "clear-all-button": true,
+      "button-text": "Clear All"
+    },
+    "dnd": {
+      "text": "Do Not Disturb"
+    },
+    "notifications": {
+      "buttons": ["dismiss", "reply", "action"]
+    }
+  },
+  "timeout": 5,
+  "timeout-low": 3,
+  "timeout-critical": 0,
+  "keyboard-shortcuts": true,
+  "notification-window": {
+    "keyboard-shortcuts": true
+  }
+}
