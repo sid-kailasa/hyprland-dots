@@ -1,2 +1,3 @@
 # Quick 15 hour hyprland rice I made myself
-![Preview](preview.mp4)
+## Preview
+<video src="preview.mp4" controls></video>
