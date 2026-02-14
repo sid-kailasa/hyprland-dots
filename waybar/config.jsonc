@@ -1,7 +1,8 @@
 {
     "layer": "top",
     "modules-left": [
-        "hyprland/workspaces"
+        "hyprland/workspaces",
+	"mpris"
     ],
     "modules-center": [
         "clock"
@@ -11,7 +12,6 @@
         "backlight",
         "network",
         "battery",
-        "mpris",
         "custom/power"
     ],
     "battery": {
@@ -95,10 +95,10 @@
         "format": "{player_icon} {title} - {artist}",
         "format-paused": "{status_icon} <i>{title} - {artist}</i>",
         "player-icons": {
-            "default": "▶"
+            "default": "⏸"
         },
         "status-icons": {
-            "paused": "⏸"
+            "paused": "▶"
         },
 	// "ignored-players": ["firefox"]
     }
