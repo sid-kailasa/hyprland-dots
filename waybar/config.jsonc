@@ -96,8 +96,8 @@
         "tooltip": false
     },
     "mpris": {
-        "format": "{player_icon} {title} - {artist}",
-        "format-paused": "{status_icon} <i>{title} - {artist}</i>",
+        "format": "{player_icon} {title}",
+        "format-paused": "{status_icon} <i>{title}</i>",
         "player-icons": {
             "default": "⏸"
         },

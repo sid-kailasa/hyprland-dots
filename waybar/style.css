@@ -1,3 +1,5 @@
+@import "colors/colors.css";
+
 * {
     border: none;
     border-radius: 0px;
@@ -10,9 +12,9 @@
 }
 
 tooltip {
-    background-color: #798edf;
+    background-color: @fg;
     border-radius: 15px;
-    color: #191919;
+    color: @bg;
     border: 0;
 }
 
@@ -20,11 +22,11 @@ window#waybar {
     background: transparent;
     border-radius: 30px;
     padding-top: 2px;
-    color: #798edf;
+    color: @fg;
 }
 
 tooltip label {
-  color: #191919;
+  color: @bg;
 }
 
 #workspaces {
@@ -39,13 +41,13 @@ tooltip label {
     padding: 2px 2px;
     background: transparent;
     font-size: 24px;
-    color: #798edf;
+    color: @fg;
     border-bottom: 0px solid transparent;
 }
 
 #clock {
     padding: 2px 10px;
-    color: #798edf;
+    color: @fg;
     background: #181C1F;
     border-radius: 30px;
     margin: 7px 5px;
@@ -93,7 +95,7 @@ tooltip label {
     font-size: 16px;
     padding: 2px 11px;
     background: transparent;
-    color: #798edf;
+    color: @fg;
     border-radius: 30px;
     margin: 7px 5px;
 }

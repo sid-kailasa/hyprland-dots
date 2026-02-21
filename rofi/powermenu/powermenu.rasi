@@ -15,7 +15,12 @@ configuration {
 /*****----- Global Properties -----*****/
 @import "~/.config/rofi/colors/colors.rasi"
 * {
-    font: "JetBrains Mono Nerd Font 10";
+	font:          "JetBrains Mono Nerd Font 10";
+	foreground:    @primary;
+	background:    @surface;
+	selected:      @primary;
+	urgent:        @on-error;
+	active:        @on-surface-variant;
 }
 
 /*

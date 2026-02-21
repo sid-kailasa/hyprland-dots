@@ -22,34 +22,13 @@ configuration {
 /*****----- Global Properties -----*****/
 @import "~/.config/rofi/colors/colors.rasi"
 * {
-    font: "JetBrains Mono Bold 12";
+   	font:          "JetBrains Mono Bold 12";
+	background:    @surface;
+	foreground:    @primary;
+	selected:      @primary;
+	urgent:        @on-error;
+	active:        @on-surface-variant;	
 }
-
-// * {
-//     border-colour:               var(selected);
-//     handle-colour:               var(foreground);
-//     background-colour:           var(background);
-//     foreground-colour:           var(foreground);
-//     alternate-background:        var(background-alt);
-//     normal-background:           var(background);
-//     normal-foreground:           var(foreground);
-//     urgent-background:           var(urgent);
-//     urgent-foreground:           var(background);
-//     active-background:           var(active);
-//     active-foreground:           var(background);
-//     selected-normal-background:  var(selected);
-//     selected-normal-foreground:  var(background);
-//     selected-urgent-background:  var(active);
-//     selected-urgent-foreground:  var(background);
-//     selected-active-background:  var(urgent);
-//     selected-active-foreground:  var(background);
-//     alternate-normal-background: var(background);
-//     alternate-normal-foreground: var(foreground);
-//     alternate-urgent-background: var(urgent);
-//     alternate-urgent-foreground: var(background);
-//     alternate-active-background: var(active);
-//     alternate-active-foreground: var(background);
-// }
 
 /*****----- Main Window -----*****/
 window {

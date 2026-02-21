@@ -26,14 +26,14 @@ alias flup='flatpak update'
 alias flse='flatpak search'
 
 # prompt
-PROMPT='╭─ %F{#798edf}%~%f
-╰──❯ %F{#798edf}$%f '
+PROMPT='╭─ %F{#bac3ff}%~%f
+╰──❯ %F{#bac3ff}$%f '
 
 preexec() {
   print -rn -- $'\e[2A'
   print -rn -- $'\e[1M'
   print -rn -- $'\e[1M'
-  print -Pn -- "%F{#7aa2bd}❯%f "
+  print -Pn -- "%F{#bac3ff}❯%f "
   print -r -- "${1}"
 }
 
@@ -42,7 +42,7 @@ precmd() {
 }
 
 # .zshrc
-alias zrc='sudo kak ~/.zshrc'
+alias zrc='sudo vim ~/.zshrc'
 
 # fastfetch
 alias ff='fastfetch'
@@ -51,10 +51,13 @@ alias ff='fastfetch'
 alias cm='cmatrix -C blue'
 
 # hyprland
-alias hc='kak ~/.config/hypr/hyprland.conf'
+alias hc='vim ~/.config/hypr/hyprland.conf'
 
 # reboot
 alias reboot='systemctl reboot'
+
+# connect soundcore Q20i
+alias q2='bluetoothctl connect 88:0E:85:51:27:5E'
 
 # paths
 export PATH="$HOME/.cargo/bin:$PATH"

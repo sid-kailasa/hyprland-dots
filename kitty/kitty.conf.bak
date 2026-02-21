@@ -20,7 +20,7 @@
 #: <https://sw.kovidgoyal.net/kitty/kittens/choose-fonts/#font-spec-
 #: syntax>.
 
-# font_size 16.0
+font_size 12.0
 
 #: Font size (in pts).
 
@@ -338,7 +338,7 @@
 #: setting also controls blinking text, which blinks in exact rhythm
 #: with the cursor.
 
-# cursor_trail 0
+# cursor_trail 200
 
 #: Set this to a value larger than zero to enable a "cursor trail"
 #: animation. This is an animation that shows a "trail" following the
@@ -1462,7 +1462,7 @@
 
 #: The foreground and background colors.
 
-background_opacity 0.5
+background_opacity 0.3
 
 #: The opacity of the terminal background color. A number between zero
 #: and one, where one is opaque and zero is fully transparent. This
@@ -2990,3 +2990,17 @@ shell /usr/bin/zsh
 #: }}}
 
 #: }}}
+
+
+# BEGIN_KITTY_FONTS
+font_family      family="JetBrains Mono NL"
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+# END_KITTY_FONTS
+
+
+# BEGIN_KITTY_THEME
+# Cherry Midnight
+include current-theme.conf
+# END_KITTY_THEME
