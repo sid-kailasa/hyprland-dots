@@ -1,5 +1,5 @@
 # Welcome!
-You should (almost) always be able to find my latest rice on r/unixporn here.
+You should be able to find my latest rice on r/unixporn here.
 
 ---
 
@@ -11,5 +11,6 @@ You should (almost) always be able to find my latest rice on r/unixporn here.
 ---
 
 ### [Zen Browser](https://zen-browser.app/) + [Zen Zero](https://sameerasw.com/zen):
+**You can find the kanji image in images/kanji.png**
 ![1](https://raw.githubusercontent.com/sid-kailasa/hyprland-dots/main/images/5.png)
 ![2](https://raw.githubusercontent.com/sid-kailasa/hyprland-dots/main/images/2.png)
