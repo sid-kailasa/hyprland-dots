@@ -1,5 +1,5 @@
 # Welcome!
-##You should be able to find my latest rice on r/unixporn here.
+## You should be able to find my latest rice on r/unixporn here.
 -
 **Dependencies:**
 ```
