@@ -1,7 +1,7 @@
 # Welcome!
 You should be able to find my latest rice on r/unixporn here.
-
-**Dependencies**
+-
+**Dependencies:**
 ```
 sudo zypper install hyprland kitty mako cargo waybar rofi cava hyprlock hyprpaper fastfetch kvantum-manager
 cargo install matugen
