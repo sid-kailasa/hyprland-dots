@@ -1,8 +1,6 @@
 # Welcome!
 You should be able to find my latest rice on r/unixporn here.
 
----
-
 ### Hyprland:
 ![1](https://raw.githubusercontent.com/sid-kailasa/hyprland-dots/main/images/1.png)
 ![2](https://raw.githubusercontent.com/sid-kailasa/hyprland-dots/main/images/3.png)
