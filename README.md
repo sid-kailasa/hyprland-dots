@@ -2,8 +2,8 @@
 
 **Dependencies:**
 ```
-sudo zypper install hyprland kitty mako cargo waybar rofi cava hyprlock hyprpaper fastfetch
-sudo zypper install kvantum-manager
+zypper install hyprland kitty mako cargo waybar rofi cava hyprlock hyprpaper fastfetch
+zypper install kvantum-manager
 cargo install matugen
 flatpak install app.zen_browser.zen
 ```
