@@ -2,8 +2,7 @@
 
 **Dependencies:**
 ```
-zypper install hyprland kitty mako cargo waybar rofi cava hyprlock hyprpaper fastfetch
-zypper install kvantum-manager
+zypper install hyprland kitty mako cargo waybar rofi cava hyprlock hyprpaper fastfetch bluetoothctl hyprsunset kvantum-manager
 cargo install matugen
 flatpak install app.zen_browser.zen
 ```
@@ -22,3 +21,4 @@ flatpak install app.zen_browser.zen
 
 ![1](https://raw.githubusercontent.com/sid-kailasa/hyprland-dots/main/images/4.png)
 ![2](https://raw.githubusercontent.com/sid-kailasa/hyprland-dots/main/images/5.png)
+![3](https://raw.githubusercontent.com/sid-kailasa/hyprland-dots/main/images/6.png)
