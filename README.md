@@ -2,7 +2,7 @@
 
 **Dependencies:**
 ```
-sudo zypper install hyprland kitty mako cargo waybar rofi cava hyprlock hyprpaper fastfetch bluetoothctl hyprsunset kvantum-manager opi
+sudo zypper install hyprland kitty mako cargo waybar rofi cava hyprlock hyprpaper fastfetch bluetoothctl playerctl hyprsunset kvantum-manager opi
 ```
 
 ```
