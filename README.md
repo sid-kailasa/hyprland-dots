@@ -4,18 +4,19 @@
 ```
 sudo zypper install hyprland kitty mako cargo waybar rofi cava hyprlock hyprpaper fastfetch bluetoothctl hyprsunset kvantum-manager opi
 ```
----
+--
 ```
 opi hyprland-guiutils
 ```
----
+--
 ```
 cargo install matugen
 ```
----
+--
 ```
 flatpak install app.zen_browser.zen
 ```
+---
 
 ### Hyprland:
 ![1](https://raw.githubusercontent.com/sid-kailasa/hyprland-dots/main/images/1.png)
