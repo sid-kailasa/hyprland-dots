@@ -2,7 +2,8 @@
 
 **Dependencies:**
 ```
-zypper install hyprland kitty mako cargo waybar rofi cava hyprlock hyprpaper fastfetch bluetoothctl hyprsunset kvantum-manager
+zypper install hyprland kitty mako cargo waybar rofi cava hyprlock hyprpaper fastfetch bluetoothctl hyprsunset kvantum-manager opi
+opi hyprland-guiutils
 cargo install matugen
 flatpak install app.zen_browser.zen
 ```
