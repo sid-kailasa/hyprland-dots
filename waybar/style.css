@@ -32,26 +32,24 @@ tooltip label {
 .modules-left {
     background: @bg;
     margin: 10px 0px;
-    border-radius: 15px;
+    border-radius: 30px;
 }
 
 .modules-center {
     background: @bg;
     margin: 10px 0px;
-    border-radius: 15px;
+    border-radius: 30px;
 }
 
 .modules-right {
     background: @bg;
     margin: 10px 0px;
-    border-radius: 15px;
+    border-radius: 30px;
 }
 
 #workspaces {
-    padding: 0px 2px;
-    padding-top: 4px;
+    padding: 2px 2px;
     background: @bg;
-    border-radius: 30px;
     margin: 7px 5px;
 }
 
@@ -60,7 +58,15 @@ tooltip label {
     background: transparent;
     font-size: 24px;
     color: @fg;
-    border-bottom: 0px solid transparent;
+    border-radius: 15px;
+    transition: all 150ms ease-in-out;
+}
+
+#workspaces button.active {
+    min-width: 40px;
+    background: @fg;
+    color: @bg;
+    border-radius: 15px;
 }
 
 #clock {
@@ -69,6 +75,7 @@ tooltip label {
     background: transparent;
     border-radius: 30px;
     margin: 7px 5px;
+    transition: all 150ms ease-in-out;
 }
 
 #battery {

@@ -1,6 +1,7 @@
 ## Configuration file for CAVA.
 # Remove the ; to change parameters.
 
+
 [general]
 
 # Auto reload config if the configuration file has changed. 1 = on, 0 = off.

@@ -26,14 +26,14 @@ alias flup='flatpak update'
 alias flse='flatpak search'
 
 # prompt
-PROMPT='╭─ %F{#DAC56E}%~%f
-╰──❯ %F{#DAC56E}$%f '
+PROMPT='%F{#DBC56E}% ╭─ ~%f
+%F{#DBC56E}╰──❯ $%f '
 
 preexec() {
   print -rn -- $'\e[2A'
   print -rn -- $'\e[1M'
   print -rn -- $'\e[1M'
-  print -Pn -- "%F{#DAC56E}❯%f "
+  print -Pn -- "%F{#DBC56E}❯%f "
   print -r -- "${1}"
 }
 
@@ -42,7 +42,7 @@ precmd() {
 }
 
 # .zshrc
-alias zrc='sudo vim ~/.zshrc'
+alias zrc='vim ~/.zshrc'
 
 # fastfetch
 alias ff='fastfetch'

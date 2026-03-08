@@ -68,16 +68,10 @@
         "max-length": 50
     },
     "hyprland/workspaces": {
-        "persistent-workspaces": {
-            "*": 5
-        },
-        "format": "{icon}",
-        "on-click": "activate",
-        "format-icons": {
-            "active": "",
-            "default": ""
-        },
-        "sort-by-number": true
+	"format": "{name}",
+       "persistent-workspaces": {
+             "*": 5, // 5 workspaces by default on every monitor
+       }
     },
     "custom/power": {
         "format": "⏻",
