@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3e14a7b7-881d-45ed-8e69-66fb9be96d7b" /># Welcome!
+# Welcome!
 
 **Dependencies:**
 ```
