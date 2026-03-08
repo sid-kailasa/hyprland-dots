@@ -30,4 +30,4 @@ flatpak install app.zen_browser.zen
 **You can find the kanji images in kanji/**
 
 ![1](https://raw.githubusercontent.com/sid-kailasa/hyprland-dots/main/showcase/4.png)
-![2](https://raw.githubusercontent.com/sid-kailasa/hyprland-dots/main/showcase/5.png)
+![2](https://github.com/sid-kailasa/hyprland-dots/blob/main/showcase/5.png?raw=true)
