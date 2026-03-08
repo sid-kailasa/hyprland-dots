@@ -19,9 +19,9 @@ flatpak install app.zen_browser.zen
 ---
 
 ### Hyprland:
-![1](https://raw.githubusercontent.com/sid-kailasa/hyprland-dots/main/showcase/1.png)
-![2](https://raw.githubusercontent.com/sid-kailasa/hyprland-dots/main/showcase/2.png)
-![3](https://raw.githubusercontent.com/sid-kailasa/hyprland-dots/main/showcase/3.png)
+![1](https://github.com/sid-kailasa/hyprland-dots/blob/main/showcase/1.png?raw=true)
+![2](https://github.com/sid-kailasa/hyprland-dots/blob/main/showcase/2.png?raw=true)
+![3](https://github.com/sid-kailasa/hyprland-dots/blob/main/showcase/3.png?raw=true)
 
 ---
 
@@ -29,5 +29,5 @@ flatpak install app.zen_browser.zen
 
 **You can find the kanji images in kanji/**
 
-![1](https://raw.githubusercontent.com/sid-kailasa/hyprland-dots/main/showcase/4.png)
+![1](https://github.com/sid-kailasa/hyprland-dots/blob/main/showcase/4.png?raw=true)
 ![2](https://github.com/sid-kailasa/hyprland-dots/blob/main/showcase/5.png?raw=true)
