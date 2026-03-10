@@ -25,7 +25,7 @@ flatpak install app.zen_browser.zen
 
 ---
 
-### [Zen Browser](https://zen-browser.app/) + [Zen Zero](https://sameerasw.com/zen):
+### [Zen Browser](https://zen-browser.app/) + [Zen Zero](https://sameerasw.com/zen) + [Better YTM Lyrics](https://addons.mozilla.org/en-US/firefox/addon/better-lyrics/):
 
 **You can find the kanji images in kanji/**
 
