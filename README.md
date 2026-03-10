@@ -1,4 +1,5 @@
 # Dependencies:
+---
 ```
 sudo zypper install hyprland kitty mako cargo waybar rofi cava hyprlock hyprpaper fastfetch bluetoothctl playerctl hyprsunset kvantum-manager jetbrains-mono-fonts opi
 ```
@@ -14,6 +15,9 @@ cargo install matugen
 ```
 flatpak install app.zen_browser.zen
 ```
+---
+
+# Showcase:
 ---
 
 ### Hyprland:
