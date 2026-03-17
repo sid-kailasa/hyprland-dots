@@ -9,4 +9,4 @@ cargo install matugen
 ```
 
 Browser: [Helium Browser](https://helium.computer/)
-> Extensions: [Better Lyrics](https://chromewebstore.google.com/detail/effdbpeggelllpfkjppbokhmmiinhlmg?utm_source=item-share-cb) and [Better Lyrics Shaders](https://chromewebstore.google.com/detail/mffpncjphfmkppebdoaehdlnagnlpfai?utm_source=item-share-cb)
+> **Extensions**: [Better Lyrics](https://chromewebstore.google.com/detail/effdbpeggelllpfkjppbokhmmiinhlmg?utm_source=item-share-cb) and [Better Lyrics Shaders](https://chromewebstore.google.com/detail/mffpncjphfmkppebdoaehdlnagnlpfai?utm_source=item-share-cb)
