@@ -1,5 +1,6 @@
 #### Preview the rice :)
 [Neocities](https://htgtcxin.neocities.org)
+---
 
 #### Dependencies(needs your attention)
 ```
@@ -7,6 +8,7 @@ sudo zypper install hyprland kitty mako cargo waybar rofi cava hyprlock fastfetc
 opi hyprland-guiutils
 cargo install matugen
 ```
+---
 
 #### Applications
 ---
