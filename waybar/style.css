@@ -19,31 +19,20 @@ tooltip {
 }
 
 window#waybar {
-    background: transparent;
+    background: @bg;
     border-radius: 30px;
-    padding-top: 2px;
     color: @fg;
 }
 
 tooltip label {
-  color: @bg;
+    color: @bg;
 }
 
-.modules-left {
-    background: @bg;
-    margin: 10px 0px;
-    border-radius: 30px;
-}
-
-.modules-center {
-    background: @bg;
-    margin: 10px 0px;
-    border-radius: 30px;
-}
-
+.modules-left,
+.modules-center,
 .modules-right {
     background: @bg;
-    margin: 10px 0px;
+    margin: 0px 0px;
     border-radius: 30px;
 }
 
@@ -71,22 +60,23 @@ tooltip label {
 
 #clock {
     padding: 0px 10px;
-    color: @fg;
-    background: transparent;
+    color: @bg;
+    background: @fg;
     border-radius: 30px;
     margin: 7px 5px;
     transition: all 150ms ease-in-out;
 }
 
 #battery {
-    padding: 0px 10px;
+    font-size: 18px;
+    padding: 0px 0px;
     background: transparent;
     border-radius: 30px;
     margin: 7px 5px;
 }
 
 #pulseaudio {
-    padding: 0px 10px;
+    padding: 0px 0px;
     background: transparent;
     border-radius: 30px;
     margin: 7px 5px;
@@ -95,14 +85,14 @@ tooltip label {
 
 #custom-power {
     font-size: 16px;
-    padding: 0px 11px;
+    padding: 0px 10px 0px 5px;
     background: transparent;
     border-radius: 30px;
     margin: 7px 5px;
 }
 
 #backlight {
-    padding: 0px 11px;
+    padding: 0px 0px;
     background: transparent;
     border-radius: 30px;
     margin: 7px 5px;
@@ -110,7 +100,7 @@ tooltip label {
 }
 
 #network {
-    padding: 0 10px;
+    padding: 0 5px 0px 0px;
     background: transparent;
     border-radius: 30px;
     margin: 7px 5px;

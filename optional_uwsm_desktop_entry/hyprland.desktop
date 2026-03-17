@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=Hyprland
-Comment=An intelligent dynamic tiling Wayland compositor
-Exec=uwsm start hyprland
-Type=Application
-DesktopNames=Hyprland
-Keywords=tiling;wayland;compositor;
