@@ -26,14 +26,14 @@ alias flup='flatpak update'
 alias flse='flatpak search'
 
 # prompt
-PROMPT='╭─ %F{#DBC56E}%~%f
-╰──❯ %F{#DBC56E}$%f '
+PROMPT='╭─ %~
+╰──❯ $ '
 
 preexec() {
   print -rn -- $'\e[2A'
   print -rn -- $'\e[1M'
   print -rn -- $'\e[1M'
-  print -Pn -- "%F{#DBC56E}❯%f "
+  print -Pn -- "❯ "
   print -r -- "${1}"
 }
 
