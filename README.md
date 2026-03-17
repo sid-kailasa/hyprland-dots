@@ -1,5 +1,5 @@
-### Preview the rice below :)
-[my neocities](https://htgtcxin.neocities.org)
+### Preview the rice :)
+[Neocities](https://htgtcxin.neocities.org)
 
 ### Dependencies(needs your attention):
 ```
