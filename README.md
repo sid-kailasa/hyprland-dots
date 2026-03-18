@@ -21,4 +21,5 @@ cargo install matugen
      > - Then, open the setup.sh file using your preferred code editor and add "yor_forger" to the THEMES array that has elements starting with "astronaut" and "black_hole."
      > - Finally, run the LOCAL scripts.sh from your cloned sddm-astronaut-theme directory, highlight on 'Select Theme Variant' and click enter, and scroll down to yor_forger. Select it and click enter.
      > - There you have the sddm theme! You can make your own configurations by copying/editing the presets the kind owner provided.
-     > - TIP: You can preview the theme without logging out if you use the following command:     ```sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/sddm-astronaut-theme/```
+     > - TIP: You can preview the theme without logging out if you use the following command:
+     > - ```sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/sddm-astronaut-theme/```
