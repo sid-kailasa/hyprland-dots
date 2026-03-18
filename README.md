@@ -27,4 +27,4 @@ cargo install matugen
      > - You can preview the theme without logging out using the following command: <br/>
      > ```sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/sddm-astronaut-theme/```
      > - You can also replace the original sddm-astronaut-theme/Main.qml with sddm/Main.qml if you want the custom padding visible in my login screen.
-     > - Every time a change is made, you need to reinstall the theme using 'Install Theme' after running the LOCAL sddm-astronaut-theme/setup.sh
+     > - Every time a change is made, you need to reinstall the theme using 'Install Theme' after running the LOCAL sddm-astronaut-theme/setup.sh.
