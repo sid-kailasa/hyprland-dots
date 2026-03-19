@@ -28,4 +28,4 @@ cargo install matugen
      > ```sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/sddm-astronaut-theme/```
      > - You can also replace the original sddm-astronaut-theme/Main.qml with my sddm/Main.qml if you want the custom padding visible in my login screen.
      > - You can make your own configurations by copying/editing the presets the kind owner of the original theme provided.
-     > - Every time a change is made, you need to reinstall the theme into sddm using "Install Theme" after running the local setup.sh.
+     > - Every time a change is made, you need to reinstall the theme into sddm using "Install Theme" after running the local setup.sh to see the change.
