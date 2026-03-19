@@ -18,13 +18,14 @@ cargo install matugen
 
 - **SDDM Theme:** [sddm-astronaut-theme](https://github.com/Keyitdev/sddm-astronaut-theme)
      > - To use the sddm theme, install the above original theme and copy the backgrounds in sddm/Backgrounds to sddm-astronaut-theme/Backgrounds and the config file in sddm/Themes to sddm-astronaut-theme/Themes.
-     > - Then, open the local scripts.sh from your cloned sddm-astronaut-theme file using your preferred code editor and add "yor_forger" to the THEMES array that has elements starting with "astronaut" and "black_hole".
-     > - Finally, run the same scripts.sh you just edited, highlight on 'Select Theme Variant' and click enter, and scroll down to yor_forger. Select it and click enter.
-     > - There you have the sddm theme! You can make your own configurations by copying/editing the presets the kind owner of the original theme provided.
+     > - Then, open the local scripts.sh from your cloned sddm-astronaut-theme folder using your preferred code editor and add "yor_forger" to the THEMES array that has elements starting with "astronaut" and "black_hole".
+     > - Finally, run the same scripts.sh you just edited using the terminal, highlight on 'Select Theme Variant' and click enter. Then, scroll down to yor_forger, select it, and click enter to confirm.
+     > - There you have the sddm theme! You might need to reboot to see the changes.
      >   <br/>
      >   <br/>
      **TIPS:**
      > - You can preview the theme without logging out using the following command: <br/>
      > ```sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/sddm-astronaut-theme/```
      > - You can also replace the original sddm-astronaut-theme/Main.qml with my sddm/Main.qml if you want the custom padding visible in my login screen.
+     > - You can make your own configurations by copying/editing the presets the kind owner of the original theme provided.
      > - Every time a change is made, you need to reinstall the theme using 'Install Theme' after running the LOCAL sddm-astronaut-theme/setup.sh.
