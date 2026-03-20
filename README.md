@@ -33,5 +33,5 @@ cargo install matugen
 - **Discord:** [Vencord](https://vencord.dev/download/) + [Midnight Theme](https://betterdiscord.app/theme/midnight)
      > - Found in discord/midnight.theme.css, this theme is a modification of the original Midnight theme linked above. Credits go to the original creators.
      > - Download Vencord using the link above, place the css in .config/Vencord/themes/, and restart discord.
-     > - Then, go to Settings -> Themes(under Vencord Settings), "Load Missing Themes" if not present, and enable it.
+     > - Then, go to Settings -> Themes(under Vencord Settings), "Load Missing Themes" if not present, and enable the Midnight theme.
      > - The css file has custom colors labeled as --custom-* and transparent --bg-* colors. Feel free to edit them as per your convenience.
