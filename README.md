@@ -29,3 +29,9 @@ cargo install matugen
      > - You can also replace the original sddm-astronaut-theme/Main.qml with my sddm/Main.qml if you want the custom padding visible in my login screen.
      > - You can make your own configurations by copying/editing the presets the kind owner of the original theme provided.
      > - Every time a change is made, you need to reinstall the theme into sddm using "Install Theme" after running the local setup.sh to see the change.
+
+- **Discord:** [Vencord](https://vencord.dev/download/) + [Midnight Theme](https://betterdiscord.app/theme/midnight)
+     > - Found in discord/midnight.theme.css, this theme is a modification of the original Midnight theme linked above. Credits go to the original creators.
+     > - Download Vencord using the link above, place the css in .config/Vencord/themes/, and restart discord.
+     > - Then, go to Settings -> Themes(under Vencord Settings), "Load Missing Themes" if not present, and enable the Midnight theme.
+     > - The css file has custom colors labeled as --custom-* and transparent --bg-* colors. Feel free to edit them as per your convenience.
