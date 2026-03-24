@@ -1,2 +1,2 @@
-@define-color bg {{colors.surface.default.hex}};
+@define-color bg rgba(24, 24, 24, 0.6);
 @define-color fg {{colors.primary.default.hex}};

@@ -3,7 +3,9 @@
 * {
     border: none;
     border-radius: 0px;
-    font-family: "JetBrainsMono Nerd Font Propo";
+    font-family:
+        "Noto Sans", "Adwaita Mono", "Noto Sans Mono",
+        "JetBrainsMono Nerd Font Propo";
     font-weight: bold;
     font-size: 16px;
     min-height: 0;
@@ -19,7 +21,7 @@ tooltip {
 }
 
 window#waybar {
-    background: @bg;
+    background: transparent;
     border-radius: 30px;
     color: @fg;
 }
@@ -29,15 +31,20 @@ tooltip label {
 }
 
 .modules-left,
-.modules-center,
+.modules-center {
+    background: transparent;
+    margin: 0px 0px;
+    border-radius: 30px;
+}
+
 .modules-right {
-    background: @bg;
+    background: transparent;
     margin: 0px 0px;
     border-radius: 30px;
 }
 
 #workspaces {
-    padding: 2px 2px;
+    padding: 10px 10px;
     background: @bg;
     margin: 7px 5px;
 }
@@ -58,58 +65,62 @@ tooltip label {
     border-radius: 15px;
 }
 
+#clock,
+#pulseaudio,
+#backlight,
+#custom-power,
+#network,
+#battery,
+#workspaces {
+    border-radius: 15px;
+    border-color: @fg;
+}
+
 #clock {
     padding: 0px 10px;
-    color: @bg;
-    background: @fg;
-    border-radius: 30px;
+    color: @fg;
+    background: @bg;
     margin: 7px 5px;
-    transition: all 150ms ease-in-out;
 }
 
 #battery {
     font-size: 18px;
-    padding: 0px 0px;
-    background: transparent;
-    border-radius: 30px;
+    padding: 0px 10px;
+    background: @bg;
     margin: 7px 5px;
 }
 
 #pulseaudio {
-    padding: 0px 0px;
-    background: transparent;
-    border-radius: 30px;
+    padding: 0px 10px;
+    background: @bg;
     margin: 7px 5px;
     font-size: 18px;
 }
 
 #custom-power {
     font-size: 16px;
-    padding: 0px 10px 0px 5px;
-    background: transparent;
-    border-radius: 30px;
+    padding: 0px 10px;
+    background: @bg;
     margin: 7px 5px;
 }
 
 #backlight {
-    padding: 0px 0px;
-    background: transparent;
-    border-radius: 30px;
+    padding: 0px 10px;
+    background: @bg;
     margin: 7px 5px;
     font-size: 16px;
 }
 
 #network {
-    padding: 0 5px 0px 0px;
-    background: transparent;
-    border-radius: 30px;
+    padding: 0px 10px;
+    background: @bg;
     margin: 7px 5px;
 }
 
 #mpris {
     font-size: 16px;
-    padding: 0px 11px;
-    background: transparent;
+    padding: 0px 10px;
+    background: @bg;
     color: @fg;
     border-radius: 30px;
     margin: 7px 5px;

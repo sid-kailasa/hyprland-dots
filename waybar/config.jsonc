@@ -1,11 +1,11 @@
 {
   "layer": "top",
-  "margin-top": 20,
-  "margin-right": 420,
+  "margin-top": 0,
+  "margin-right": 0,
   "margin-bottom": 10,
-  "margin-left": 420,
-  "modules-left": ["hyprland/workspaces", "mpris"],
-  "modules-center": ["clock"],
+  "margin-left": 0,
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["mpris", "clock"],
   "modules-right": [
     "pulseaudio",
     "backlight",
@@ -15,10 +15,10 @@
   ],
   "battery": {
     "format": "{icon}",
-    "format-icons": ["", "", "", "", ""],
+    "format-icons": ["󰁺", "󰁻", "󰁽", "󰂀", "󰁹"],
   },
   "clock": {
-    "format": "{:%H:%M}",
+    "format": "{:%H : %M}",
     "tooltip-format": "{:%a, %b %d}",
   },
   "pulseaudio": {
@@ -42,7 +42,7 @@
   "network": {
     "interface": "wlo1",
     "format": "{ifname}",
-    "format-wifi": "",
+    "format-wifi": "󰤨",
     "format-ethernet": "{ipaddr}/{cidr} 󰊗",
     "format-disconnected": "", //An empty format will hide the module.
     "tooltip-format": "{ifname} via {gwaddr} 󰊗",
@@ -58,13 +58,13 @@
     },
   },
   "custom/power": {
-    "format": "⏻",
+    "format": "",
     "on-click": "./.config/rofi/powermenu/powermenu.sh",
   },
   "backlight": {
     "device": "amdgpu_bl1",
     "format": "<span font='13' weight='bold' rise='1600'>{percent}%</span> <span font='18'>{icon}</span>",
-    "format-icons": ["☀"],
+    "format-icons": ["󰃠"],
     "on-scroll-up": "brightnessctl --device=amdgpu_bl1 set +5%",
     "on-scroll-down": "brightnessctl --device=amdgpu_bl1 set 5%-",
     "min-length": 6,
