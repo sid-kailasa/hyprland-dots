@@ -63,7 +63,7 @@
   },
   "backlight": {
     "device": "amdgpu_bl1",
-    "format": "<span font='13' weight='bold' rise='1600'>{percent}%</span> <span font='18'>{icon}</span>",
+    "format": "<span font='13' weight='bold' rise='1600'>{percent}%</span> <span font='16'>{icon}</span>",
     "format-icons": ["󰃠"],
     "on-scroll-up": "brightnessctl --device=amdgpu_bl1 set +5%",
     "on-scroll-down": "brightnessctl --device=amdgpu_bl1 set 5%-",
