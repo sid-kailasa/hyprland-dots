@@ -18,7 +18,7 @@ cargo install matugen
 
 - **SDDM Theme:** [sddm-astronaut-theme](https://github.com/Keyitdev/sddm-astronaut-theme)
      > - To use the sddm theme, install the above original theme and copy the backgrounds in sddm/Backgrounds to sddm-astronaut-theme/Backgrounds and the config file in sddm/Themes to sddm-astronaut-theme/Themes.
-     > - Then, open the scripts.sh from your cloned sddm-astronaut-theme folder using your preferred code editor and add "yor_forger" to the THEMES array that has elements starting with "astronaut" and "black_hole".
+     > - Then, open the scripts.sh from the cloned sddm-astronaut-theme folder using your preferred code editor and add "yor_forger" to the THEMES array that has elements starting with "astronaut" and "black_hole".
      > - Finally, run the same scripts.sh you just edited using the terminal, highlight on 'Select Theme Variant' and click enter. Then, scroll down to yor_forger, select it, and click enter to confirm.
      > - There you have the sddm theme! You might need to reboot to see the changes.
      >   <br/>
